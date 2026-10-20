@@ -1,0 +1,501 @@
+visit_id,patient_id,visit_date,department,admission_type,wait_time_minutes,length_of_stay_days,visit_outcome
+V0001,P0347,2025-11-24,Emergency,Emergency,73.0,4.2,Admitted
+V0002,P0309,2025-10-07,Emergency,Scheduled,61.0,1.9,Discharged
+V0003,P0302,2025-01-14,General Medicine,Emergency,36.0,1.8,Discharged
+V0004,P0111,2025-05-23,Emergency,Walk-in,63.0,3.0,Discharged
+V0005,P0023,2025-06-22,Emergency,Emergency,98.0,4.8,Discharged
+V0006,P0322,2025-08-24,General Medicine,Emergency,53.0,2.9,Discharged
+V0007,P0149,2025-11-13,Orthopedics,Scheduled,28.0,1.4,Discharged
+V0008,P0084,2025-02-10,Cardiology,Walk-in,22.0,2.9,Admitted
+V0009,P0312,2025-07-09,Orthopedics,Emergency,46.0,6.5,Discharged
+V0010,P0328,2025-11-22,Cardiology,Scheduled,35.0,3.4,Discharged
+V0011,P0017,2025-12-19,General Medicine,Emergency,36.0,5.3,Discharged
+V0012,P0162,2025-06-11,Pediatrics,Emergency,53.0,6.4,Admitted
+V0013,P0072,2025-04-19,Neurology,Scheduled,56.0,0.5,Discharged
+V0014,P0205,2025-05-07,Neurology,Scheduled,38.0,3.6,Admitted
+V0015,P0057,2025-07-05,Cardiology,Walk-in,46.0,3.0,Admitted
+V0016,P0306,2025-03-20,Neurology,Emergency,51.0,1.5,Discharged
+V0017,P0059,2025-08-28,General Medicine,Emergency,14.0,2.1,Admitted
+V0018,P0081,2025-12-16,General Medicine,Walk-in,36.0,0.5,Discharged
+V0019,P0092,2025-08-21,Emergency,Walk-in,63.0,1.0,Discharged
+V0020,P0079,2025-09-17,Emergency,Walk-in,48.0,3.7,Discharged
+V0021,P0166,2025-07-11,Cardiology,Scheduled,38.0,0.1,Discharged
+V0022,P0123,2025-09-08,Emergency,Emergency,46.0,6.3,Admitted
+V0023,P0036,2025-01-30,Cardiology,Walk-in,40.0,1.6,Discharged
+V0024,P0311,2025-09-30,Cardiology,Emergency,36.0,3.5,Discharged
+V0025,P0205,2025-08-05,Cardiology,Walk-in,35.0,0.0,Admitted
+V0026,P0033,2025-12-10,Neurology,Scheduled,53.0,0.9,Discharged
+V0027,P0324,2025-06-23,Emergency,Scheduled,56.0,2.8,Discharged
+V0028,P0143,2025-01-31,Cardiology,Emergency,68.0,3.4,Discharged
+V0029,P0243,2025-12-09,Pediatrics,Emergency,68.0,5.6,Discharged
+V0030,P0217,2025-05-05,Pediatrics,Walk-in,27.0,2.4,Discharged
+V0031,P0032,2025-07-30,Pediatrics,Walk-in,45.0,2.5,Discharged
+V0032,P0230,2025-07-26,Neurology,Emergency,67.0,2.4,Discharged
+V0033,P0282,2025-03-13,Pediatrics,Emergency,15.0,3.9,Discharged
+V0034,P0122,2025-02-20,Emergency,Walk-in,52.0,1.7,Discharged
+V0035,P0195,2025-03-27,Pediatrics,Scheduled,28.0,3.2,Discharged
+V0036,P0285,2025-01-02,Pediatrics,Emergency,48.0,1.7,Discharged
+V0037,P0278,2025-12-05,Neurology,Scheduled,43.0,2.7,Discharged
+V0038,P0272,2025-02-01,Neurology,Emergency,76.0,3.7,Referred
+V0039,P0346,2025-03-22,Emergency,Walk-in,63.0,2.2,Discharged
+V0040,P0318,2025-05-01,Pediatrics,Emergency,53.0,2.5,Discharged
+V0041,P0343,2025-02-11,Pediatrics,Walk-in,13.0,1.3,Discharged
+V0042,P0038,2025-06-10,Cardiology,Emergency,69.0,4.7,Discharged
+V0043,P0260,2025-01-05,Pediatrics,Scheduled,18.0,1.6,Discharged
+V0044,P0081,2025-05-16,Cardiology,Walk-in,57.0,0.0,Discharged
+V0045,P0005,2025-08-13,General Medicine,Walk-in,0.0,0.0,Admitted
+V0046,P0060,2025-12-08,General Medicine,Emergency,29.0,0.4,Discharged
+V0047,P0105,2025-02-24,Neurology,Scheduled,37.0,3.7,Admitted
+V0048,P0027,2025-12-18,Neurology,Walk-in,28.0,1.8,Referred
+V0049,P0327,2025-02-17,Neurology,Scheduled,39.0,1.9,Admitted
+V0050,P0039,2025-05-15,Cardiology,Walk-in,19.0,1.3,Discharged
+V0051,P0066,2025-12-20,Cardiology,Scheduled,45.0,0.2,Discharged
+V0052,P0184,2025-01-22,Unknown,Scheduled,66.0,0.3,Discharged
+V0053,P0209,2025-04-18,Neurology,Emergency,80.0,4.7,Admitted
+V0054,P0091,2025-11-14,Neurology,Emergency,87.0,2.0,Referred
+V0055,P0343,2025-07-31,Emergency,Emergency,98.0,2.1,Discharged
+V0056,P0241,2025-05-08,Orthopedics,Emergency,45.0,1.9,Discharged
+V0057,P0117,2025-04-24,Cardiology,Walk-in,22.0,2.1,Admitted
+V0058,P0143,2025-04-25,Emergency,Walk-in,45.0,2.5,Discharged
+V0059,P0015,2025-06-29,Neurology,Scheduled,27.0,0.0,Discharged
+V0060,P0223,2025-03-01,Orthopedics,Emergency,61.0,2.9,Discharged
+V0061,P0296,2025-06-26,Neurology,Walk-in,0.0,3.4,Discharged
+V0062,P0344,2025-04-08,Orthopedics,Emergency,33.0,3.9,Admitted
+V0063,P0340,2025-04-11,Orthopedics,Scheduled,62.0,0.8,Discharged
+V0064,P0152,2025-03-05,Neurology,Walk-in,17.0,1.7,Discharged
+V0065,P0090,2025-10-11,Cardiology,Emergency,47.0,2.0,Admitted
+V0066,P0221,2025-11-12,General Medicine,Emergency,47.0,3.2,Discharged
+V0067,P0243,2025-10-24,General Medicine,Walk-in,12.0,2.1,Discharged
+V0068,P0121,2025-03-28,Neurology,Emergency,38.0,3.0,Discharged
+V0069,P0244,2025-12-11,Orthopedics,Emergency,51.0,3.5,Discharged
+V0070,P0197,2025-11-09,Emergency,Scheduled,69.0,0.6,Admitted
+V0071,P0055,2025-09-11,Pediatrics,Emergency,44.0,3.1,Admitted
+V0072,P0128,2025-08-06,Cardiology,Emergency,72.0,2.8,Discharged
+V0073,P0163,2025-03-04,Pediatrics,Emergency,26.0,3.6,Discharged
+V0074,P0229,2025-08-15,General Medicine,Walk-in,40.0,0.9,Referred
+V0075,P0142,2025-03-23,Neurology,Walk-in,16.0,2.5,Admitted
+V0076,P0140,2025-09-24,Pediatrics,Scheduled,24.0,2.4,Discharged
+V0077,P0079,2025-06-21,Orthopedics,Walk-in,37.0,2.2,Discharged
+V0078,P0106,2025-12-28,Cardiology,Emergency,39.0,4.2,Discharged
+V0079,P0295,2025-08-04,Pediatrics,Walk-in,5.0,0.7,Admitted
+V0080,P0215,2025-07-14,Pediatrics,Emergency,30.0,5.1,Admitted
+V0081,P0140,2025-10-03,Neurology,Walk-in,49.0,0.0,Discharged
+V0082,P0085,2025-08-12,Pediatrics,Emergency,33.0,5.0,Discharged
+V0083,P0340,2025-08-28,Cardiology,Walk-in,3.0,1.2,Discharged
+V0084,P0195,2025-01-14,Emergency,Scheduled,60.0,3.0,Discharged
+V0085,P0216,2025-06-17,Cardiology,Scheduled,18.0,4.3,Discharged
+V0086,P0115,2025-05-10,Emergency,Scheduled,54.0,1.3,Referred
+V0087,P0103,2025-11-29,Emergency,Walk-in,40.0,0.0,Referred
+V0088,P0112,2025-01-11,General Medicine,Emergency,63.0,4.7,Discharged
+V0089,P0059,2025-08-27,Neurology,Emergency,46.0,4.6,Referred
+V0090,P0193,2025-03-25,Orthopedics,Emergency,62.0,3.4,Admitted
+V0091,P0155,2025-07-23,Neurology,Emergency,36.0,1.8,Discharged
+V0092,P0273,2025-12-17,General Medicine,Walk-in,33.0,0.1,Discharged
+V0093,P0251,2025-08-08,Neurology,Scheduled,26.0,1.8,Admitted
+V0094,P0223,2025-02-24,Pediatrics,Walk-in,6.0,0.0,Admitted
+V0095,P0248,2025-04-01,Neurology,Scheduled,27.0,0.2,Referred
+V0096,P0045,2025-08-27,Pediatrics,Walk-in,13.0,1.1,Discharged
+V0097,P0015,2025-05-23,Pediatrics,Emergency,24.0,3.6,Discharged
+V0098,P0306,2025-09-11,Orthopedics,Emergency,56.0,5.6,Discharged
+V0099,P0209,2025-12-26,Orthopedics,Scheduled,20.0,1.7,Discharged
+V0100,P0009,2025-09-08,General Medicine,Walk-in,20.0,0.0,Discharged
+V0101,P0243,2025-02-17,Orthopedics,Emergency,45.0,2.1,Discharged
+V0102,P0233,2025-10-11,General Medicine,Emergency,66.0,3.2,Discharged
+V0103,P0275,2025-05-19,Orthopedics,Emergency,57.0,3.8,Discharged
+V0104,P0269,2025-12-20,Cardiology,Emergency,54.0,2.1,Discharged
+V0105,P0155,2025-11-02,Orthopedics,Walk-in,36.0,0.8,Discharged
+V0106,P0065,2025-01-08,Neurology,Scheduled,33.0,5.5,Discharged
+V0107,P0175,2025-11-23,Pediatrics,Emergency,57.0,3.3,Discharged
+V0108,P0252,2025-04-05,Emergency,Emergency,79.0,2.7,Discharged
+V0109,P0156,2025-02-07,General Medicine,Scheduled,36.0,2.1,Discharged
+V0110,P0116,2025-02-13,Cardiology,Emergency,56.0,1.3,Admitted
+V0111,P0157,2025-09-25,Pediatrics,Scheduled,0.0,2.8,Referred
+V0112,P0321,2025-10-19,General Medicine,Emergency,54.0,3.0,Admitted
+V0113,P0002,2025-04-19,Orthopedics,Walk-in,35.0,2.5,Discharged
+V0114,P0145,2025-07-29,Pediatrics,Walk-in,21.0,1.9,Discharged
+V0115,P0302,2025-12-26,Pediatrics,Emergency,46.0,4.3,Admitted
+V0116,P0073,2025-12-05,Cardiology,Scheduled,14.0,1.2,Referred
+V0117,P0148,2025-02-06,Emergency,Emergency,66.0,5.4,Discharged
+V0118,P0277,2025-08-13,Emergency,Scheduled,49.0,3.1,Discharged
+V0119,P0129,2025-09-10,Pediatrics,Emergency,60.0,3.6,Discharged
+V0120,P0011,2025-01-14,Emergency,Emergency,61.0,0.7,Discharged
+V0121,P0227,2025-12-11,Orthopedics,Scheduled,30.0,0.9,Discharged
+V0122,P0241,2025-05-23,Cardiology,Walk-in,9.0,2.8,Referred
+V0123,P0254,2025-06-28,Pediatrics,Emergency,30.0,0.8,Discharged
+V0124,P0162,2025-05-28,Neurology,Walk-in,47.0,0.2,Discharged
+V0125,P0001,2025-05-10,Orthopedics,Emergency,54.0,0.4,Admitted
+V0126,P0256,2025-12-03,General Medicine,Scheduled,45.0,2.4,Discharged
+V0127,P0225,2025-11-17,Pediatrics,Walk-in,30.0,3.5,Referred
+V0128,P0082,2025-12-24,Pediatrics,Emergency,65.0,2.9,Discharged
+V0129,P0059,2025-06-09,General Medicine,Emergency,39.0,3.7,Admitted
+V0130,P0140,2025-08-25,Emergency,Scheduled,74.0,4.5,Discharged
+V0131,P0307,2025-08-01,Pediatrics,Walk-in,25.0,3.6,Discharged
+V0132,P0213,2025-09-18,Neurology,Walk-in,47.0,1.0,Admitted
+V0133,P0297,2025-06-24,General Medicine,Emergency,72.0,3.2,Admitted
+V0134,P0279,2025-12-04,Pediatrics,Walk-in,8.0,2.3,Discharged
+V0135,P0197,2025-07-13,Pediatrics,Walk-in,53.0,0.0,Discharged
+V0136,P0198,2025-04-30,Pediatrics,Emergency,44.0,1.0,Admitted
+V0137,P0303,2025-12-06,Neurology,Walk-in,35.0,1.8,Discharged
+V0138,P0074,2025-06-19,Emergency,Walk-in,37.0,2.4,Discharged
+V0139,P0320,2025-07-29,Neurology,Walk-in,63.0,2.9,Discharged
+V0140,P0195,2025-12-21,Pediatrics,Scheduled,42.0,0.0,Admitted
+V0141,P0036,2025-06-12,Neurology,Walk-in,41.0,0.0,Discharged
+V0142,P0051,2025-05-01,Neurology,Walk-in,37.0,2.8,Discharged
+V0143,P0024,2025-11-21,Neurology,Walk-in,18.0,2.5,Referred
+V0144,P0290,2025-06-16,Emergency,Emergency,69.0,3.8,Discharged
+V0145,P0124,2025-12-16,Cardiology,Emergency,40.0,4.5,Discharged
+V0146,P0005,2025-09-12,General Medicine,Emergency,36.0,3.5,Discharged
+V0147,P0301,2025-08-27,Orthopedics,Walk-in,38.0,3.1,Discharged
+V0148,P0197,2025-06-03,Neurology,Walk-in,33.0,0.4,Discharged
+V0149,P0152,2025-09-05,Emergency,Emergency,57.0,2.4,Referred
+V0150,P0026,2025-01-12,Neurology,Scheduled,69.0,1.9,Admitted
+V0151,P0311,2025-11-07,Neurology,Scheduled,50.0,1.1,Admitted
+V0152,P0338,2025-06-30,Cardiology,Scheduled,18.0,0.3,Admitted
+V0153,P0226,2025-12-15,Cardiology,Scheduled,52.0,0.6,Discharged
+V0154,P0213,2025-01-18,General Medicine,Scheduled,50.0,4.1,Discharged
+V0155,P0140,2025-03-31,Cardiology,Emergency,16.0,2.3,Discharged
+V0156,P0174,2025-03-26,Orthopedics,Walk-in,66.0,0.5,Discharged
+V0157,P0346,2025-02-28,Pediatrics,Walk-in,49.0,4.6,Admitted
+V0158,P0233,2025-07-23,General Medicine,Scheduled,28.0,1.6,Discharged
+V0159,P0191,2025-07-08,Neurology,Walk-in,38.0,3.2,Discharged
+V0160,P0313,2025-02-25,Neurology,Emergency,90.0,3.7,Discharged
+V0161,P0210,2025-04-24,Neurology,Emergency,74.0,0.5,Discharged
+V0162,P0121,2025-03-01,Cardiology,Emergency,103.0,4.3,Discharged
+V0163,P0277,2025-10-03,Cardiology,Scheduled,9.0,4.3,Admitted
+V0164,P0251,2025-08-03,General Medicine,Walk-in,36.0,3.0,Discharged
+V0165,P0228,2025-11-12,Pediatrics,Walk-in,20.0,3.9,Discharged
+V0166,P0184,2025-05-01,Orthopedics,Emergency,42.0,1.6,Referred
+V0167,P0047,2025-02-01,Pediatrics,Emergency,80.0,2.5,Admitted
+V0168,P0125,2025-12-06,Cardiology,Scheduled,32.0,1.6,Admitted
+V0169,P0120,2025-03-06,General Medicine,Emergency,57.0,1.6,Discharged
+V0170,P0067,2025-06-18,Cardiology,Walk-in,25.0,1.2,Referred
+V0171,P0184,2025-10-04,Orthopedics,Walk-in,53.0,3.6,Discharged
+V0172,P0270,2025-05-02,General Medicine,Emergency,50.0,3.6,Admitted
+V0173,P0232,2025-02-28,Neurology,Emergency,46.0,3.6,Discharged
+V0174,P0267,2025-09-15,Cardiology,Walk-in,60.0,2.5,Admitted
+V0175,P0219,2025-06-04,Pediatrics,Scheduled,78.0,2.8,Admitted
+V0176,P0312,2025-12-18,Emergency,Scheduled,59.0,1.5,Discharged
+V0177,P0196,2025-03-17,Emergency,Emergency,60.0,1.9,Admitted
+V0178,P0059,2025-11-02,General Medicine,Emergency,32.0,3.1,Admitted
+V0179,P0117,2025-12-02,Neurology,Walk-in,11.0,0.9,Discharged
+V0180,P0161,2025-07-31,Orthopedics,Walk-in,10.0,3.1,Discharged
+V0181,P0044,2025-12-07,Orthopedics,Scheduled,49.0,4.4,Discharged
+V0182,P0301,2025-02-17,Pediatrics,Emergency,43.0,0.6,Discharged
+V0183,P0217,2025-10-15,General Medicine,Emergency,58.0,4.1,Admitted
+V0184,P0337,2025-01-27,Orthopedics,Scheduled,18.0,3.3,Discharged
+V0185,P0143,2025-09-04,Cardiology,Walk-in,23.0,3.2,Discharged
+V0186,P0315,2025-10-21,Cardiology,Walk-in,57.0,0.0,Admitted
+V0187,P0015,2025-12-12,Neurology,Scheduled,22.0,0.5,Admitted
+V0188,P0074,2025-04-03,Orthopedics,Walk-in,25.0,3.0,Discharged
+V0189,P0272,2025-10-17,Neurology,Scheduled,53.0,3.3,Discharged
+V0190,P0291,2025-04-21,Pediatrics,Scheduled,17.0,2.9,Admitted
+V0191,P0042,2025-11-02,Emergency,Walk-in,69.0,3.7,Discharged
+V0192,P0263,2025-05-20,Pediatrics,Walk-in,8.0,1.9,Discharged
+V0193,P0342,2025-02-28,Orthopedics,Scheduled,25.0,3.9,Discharged
+V0194,P0109,2025-06-07,Emergency,Emergency,80.0,3.2,Discharged
+V0195,P0067,2025-03-12,Orthopedics,Emergency,62.0,4.3,Discharged
+V0196,P0037,2025-07-14,General Medicine,Walk-in,0.0,1.8,Admitted
+V0197,P0295,2025-07-23,Neurology,Emergency,93.0,3.6,Admitted
+V0198,P0167,2025-08-08,General Medicine,Scheduled,20.0,0.9,Discharged
+V0199,P0055,2025-03-29,General Medicine,Scheduled,22.0,0.6,Discharged
+V0200,P0174,2025-05-05,Pediatrics,Scheduled,10.0,1.6,Discharged
+V0201,P0100,2025-04-24,Orthopedics,Walk-in,48.0,2.7,Discharged
+V0202,P0075,2025-06-28,Orthopedics,Walk-in,41.0,0.0,Discharged
+V0203,P0322,2025-05-12,Cardiology,Emergency,69.0,5.1,Discharged
+V0204,P0290,2025-09-10,Pediatrics,Walk-in,26.0,0.3,Referred
+V0205,P0226,2025-11-26,Neurology,Walk-in,22.0,5.1,Discharged
+V0206,P0260,2025-02-04,Pediatrics,Scheduled,21.0,2.9,Discharged
+V0207,P0331,2025-02-07,Orthopedics,Scheduled,43.0,2.1,Discharged
+V0208,P0022,2025-02-16,General Medicine,Scheduled,13.0,3.0,Referred
+V0209,P0032,2025-08-19,General Medicine,Walk-in,20.0,3.2,Discharged
+V0210,P0331,2025-08-19,Emergency,Walk-in,77.0,0.0,Discharged
+V0211,P0082,2025-03-30,Emergency,Emergency,60.0,3.8,Discharged
+V0212,P0027,2025-07-06,Orthopedics,Walk-in,10.0,3.4,Admitted
+V0213,P0130,2025-11-20,Neurology,Emergency,50.0,4.8,Discharged
+V0214,P0180,2025-12-03,General Medicine,Walk-in,18.0,3.4,Discharged
+V0215,P0159,2025-06-08,Neurology,Walk-in,24.0,3.0,Referred
+V0216,P0270,2025-10-14,Pediatrics,Scheduled,21.0,2.4,Admitted
+V0217,P0110,2025-02-17,Neurology,Walk-in,37.0,1.8,Discharged
+V0218,P0052,2025-06-24,Pediatrics,Emergency,53.0,3.2,Discharged
+V0219,P0317,2025-09-17,General Medicine,Walk-in,31.0,1.5,Discharged
+V0220,P0085,2025-03-09,General Medicine,Scheduled,42.0,4.1,Admitted
+V0221,P0146,2025-08-13,Emergency,Scheduled,50.0,0.9,Discharged
+V0222,P0100,2025-08-18,Cardiology,Scheduled,25.0,4.2,Discharged
+V0223,P0196,2025-07-08,Unknown,Walk-in,56.0,1.6,Discharged
+V0224,P0129,2025-09-15,General Medicine,Scheduled,33.0,2.6,Discharged
+V0225,P0265,2025-01-27,Neurology,Scheduled,15.0,4.2,Admitted
+V0226,P0224,2025-03-05,Orthopedics,Emergency,58.0,4.5,Discharged
+V0227,P0203,2025-02-16,Cardiology,Walk-in,60.0,0.0,Discharged
+V0228,P0051,2025-09-15,Orthopedics,Emergency,64.0,3.2,Discharged
+V0229,P0072,2025-11-29,Orthopedics,Walk-in,38.0,2.7,Admitted
+V0230,P0077,2025-12-28,Pediatrics,Scheduled,31.0,1.8,Discharged
+V0231,P0063,2025-10-08,Neurology,Scheduled,17.0,2.9,Discharged
+V0232,P0256,2025-01-25,Cardiology,Scheduled,39.0,0.3,Discharged
+V0233,P0220,2025-11-02,General Medicine,Emergency,36.0,3.1,Discharged
+V0234,P0269,2025-01-01,General Medicine,Scheduled,19.0,1.4,Admitted
+V0235,P0011,2025-07-04,Emergency,Walk-in,29.0,1.1,Discharged
+V0236,P0183,2025-07-19,Pediatrics,Emergency,34.0,4.1,Admitted
+V0237,P0171,2025-02-04,Orthopedics,Emergency,46.0,2.7,Discharged
+V0238,P0238,2025-03-10,Emergency,Scheduled,43.0,3.5,Admitted
+V0239,P0235,2025-12-23,Pediatrics,Scheduled,27.0,1.3,Admitted
+V0240,P0159,2025-01-19,Orthopedics,Emergency,57.0,0.4,Discharged
+V0241,P0098,2025-09-21,Pediatrics,Walk-in,13.0,1.5,Admitted
+V0242,P0189,2025-05-27,Orthopedics,Walk-in,50.0,2.4,Discharged
+V0243,P0255,2025-08-12,Pediatrics,Walk-in,36.0,0.9,Referred
+V0244,P0218,2025-12-21,Pediatrics,Scheduled,28.0,0.7,Discharged
+V0245,P0041,2025-02-10,Pediatrics,Scheduled,33.0,0.2,Discharged
+V0246,P0228,2025-06-17,Neurology,Emergency,37.0,3.9,Discharged
+V0247,P0141,2025-06-29,Pediatrics,Emergency,54.0,2.2,Referred
+V0248,P0348,2025-11-24,Emergency,Emergency,65.0,2.2,Admitted
+V0249,P0035,2025-03-23,Emergency,Emergency,54.0,1.7,Discharged
+V0250,P0348,2025-05-01,Neurology,Scheduled,25.0,3.0,Discharged
+V0251,P0204,2025-08-19,Orthopedics,Scheduled,31.0,0.0,Discharged
+V0252,P0266,2025-06-10,Neurology,Emergency,63.0,3.1,Discharged
+V0253,P0314,2025-07-18,General Medicine,Emergency,51.0,1.0,Discharged
+V0254,P0232,2025-05-27,Neurology,Walk-in,32.0,1.8,Admitted
+V0255,P0164,2025-03-30,Neurology,Scheduled,59.0,2.9,Admitted
+V0256,P0081,2025-12-08,Orthopedics,Walk-in,18.0,1.4,Discharged
+V0257,P0063,2025-12-31,Neurology,Walk-in,22.0,0.0,Discharged
+V0258,P0240,2025-04-13,Cardiology,Emergency,40.0,3.2,Discharged
+V0259,P0246,2025-10-10,Cardiology,Scheduled,46.0,2.4,Referred
+V0260,P0329,2025-09-27,Pediatrics,Walk-in,27.0,1.3,Referred
+V0261,P0283,2025-02-07,Pediatrics,Scheduled,17.0,1.7,Admitted
+V0262,P0029,2025-11-24,General Medicine,Emergency,63.0,2.9,Referred
+V0263,P0178,2025-03-05,General Medicine,Emergency,54.0,4.3,Admitted
+V0264,P0065,2025-09-23,Orthopedics,Walk-in,29.0,3.8,Discharged
+V0265,P0298,2025-11-17,Orthopedics,Scheduled,47.0,2.9,Discharged
+V0266,P0289,2025-03-20,Cardiology,Walk-in,31.0,0.0,Admitted
+V0267,P0108,2025-01-22,Emergency,Emergency,99.0,2.4,Discharged
+V0268,P0329,2025-10-20,Pediatrics,Scheduled,55.0,2.4,Discharged
+V0269,P0031,2025-06-04,Pediatrics,Emergency,50.0,1.9,Discharged
+V0270,P0164,2025-03-22,Pediatrics,Scheduled,11.0,2.1,Discharged
+V0271,P0239,2025-06-26,Pediatrics,Emergency,31.0,4.5,Discharged
+V0272,P0316,2025-03-04,Orthopedics,Scheduled,33.0,2.1,Referred
+V0273,P0161,2025-08-03,Cardiology,Walk-in,57.0,0.3,Referred
+V0274,P0012,2025-04-08,Cardiology,Scheduled,17.0,1.6,Discharged
+V0275,P0026,2025-02-16,Pediatrics,Scheduled,35.0,1.6,Discharged
+V0276,P0005,2025-05-25,Pediatrics,Scheduled,37.0,0.1,Discharged
+V0277,P0024,2025-02-25,Pediatrics,Emergency,43.0,4.5,Discharged
+V0278,P0259,2025-07-25,Emergency,Scheduled,61.0,3.5,Discharged
+V0279,P0050,2025-08-19,General Medicine,Emergency,36.0,3.1,Discharged
+V0280,P0102,2025-07-21,Orthopedics,Walk-in,11.0,4.6,Admitted
+V0281,P0243,2025-11-05,General Medicine,Scheduled,32.0,1.9,Admitted
+V0282,P0164,2025-09-23,Pediatrics,Emergency,51.0,2.7,Referred
+V0283,P0261,2025-03-25,Pediatrics,Walk-in,24.0,0.6,Discharged
+V0284,P0345,2025-09-30,Pediatrics,Walk-in,16.0,4.2,Discharged
+V0285,P0014,2025-02-26,Pediatrics,Scheduled,31.0,0.0,Admitted
+V0286,P0117,2025-11-02,Pediatrics,Emergency,22.0,0.1,Discharged
+V0287,P0195,2025-01-27,General Medicine,Scheduled,4.0,1.5,Admitted
+V0288,P0226,2025-03-17,Neurology,Emergency,39.0,2.2,Discharged
+V0289,P0242,2025-06-10,Pediatrics,Emergency,39.0,1.9,Admitted
+V0290,P0270,2025-02-01,Neurology,Emergency,63.0,4.4,Admitted
+V0291,P0347,2025-07-12,Orthopedics,Walk-in,12.0,2.2,Discharged
+V0292,P0143,2025-12-15,Neurology,Walk-in,38.0,3.4,Referred
+V0293,P0107,2025-10-13,Orthopedics,Emergency,62.0,3.0,Discharged
+V0294,P0141,2025-12-20,Neurology,Scheduled,20.0,2.0,Referred
+V0295,P0177,2025-05-28,Emergency,Scheduled,24.0,1.0,Discharged
+V0296,P0336,2025-03-16,Orthopedics,Emergency,55.0,3.0,Referred
+V0297,P0140,2025-05-12,Neurology,Scheduled,45.0,3.5,Referred
+V0298,P0272,2025-03-12,Emergency,Scheduled,45.0,1.3,Admitted
+V0299,P0349,2025-04-26,Neurology,Emergency,70.0,3.9,Discharged
+V0300,P0244,2025-03-12,Emergency,Walk-in,63.0,1.7,Admitted
+V0301,P0046,2025-09-02,Neurology,Emergency,72.0,2.9,Discharged
+V0302,P0090,2025-11-30,General Medicine,Emergency,45.0,0.5,Discharged
+V0303,P0096,2025-08-02,Cardiology,Walk-in,62.0,2.4,Admitted
+V0304,P0146,2025-05-29,Emergency,Emergency,68.0,2.9,Referred
+V0305,P0240,2025-08-21,Neurology,Scheduled,4.0,1.9,Admitted
+V0306,P0096,2025-05-20,Cardiology,Walk-in,23.0,3.8,Discharged
+V0307,P0313,2025-01-08,Neurology,Emergency,53.0,5.2,Discharged
+V0308,P0095,2025-11-24,Pediatrics,Walk-in,18.0,1.7,Admitted
+V0309,P0137,2025-03-13,Pediatrics,Emergency,45.0,4.3,Discharged
+V0310,P0121,2025-06-18,Orthopedics,Scheduled,19.0,1.3,Discharged
+V0311,P0160,2025-02-01,Neurology,Emergency,54.0,4.5,Discharged
+V0312,P0069,2025-12-20,Emergency,Scheduled,68.0,1.3,Discharged
+V0313,P0242,2025-09-02,Cardiology,Scheduled,49.0,1.7,Admitted
+V0314,P0042,2025-10-03,Neurology,Walk-in,41.0,0.0,Discharged
+V0315,P0281,2025-09-27,Pediatrics,Scheduled,3.0,4.2,Discharged
+V0316,P0060,2025-09-16,Cardiology,Scheduled,42.0,2.8,Discharged
+V0317,P0029,2025-12-15,Cardiology,Walk-in,2.0,2.0,Discharged
+V0318,P0158,2025-08-21,Cardiology,Scheduled,30.0,1.9,Discharged
+V0319,P0217,2025-01-12,Pediatrics,Emergency,55.0,3.2,Discharged
+V0320,P0242,2025-06-26,Neurology,Emergency,95.0,3.1,Discharged
+V0321,P0331,2025-01-17,Orthopedics,Scheduled,33.0,0.0,Referred
+V0322,P0193,2025-08-04,Orthopedics,Walk-in,7.0,3.7,Referred
+V0323,P0061,2025-02-11,Neurology,Walk-in,45.0,1.3,Admitted
+V0324,P0012,2025-04-02,General Medicine,Scheduled,56.0,4.6,Admitted
+V0325,P0127,2025-06-02,Pediatrics,Walk-in,7.0,1.3,Admitted
+V0326,P0017,2025-08-24,Orthopedics,Emergency,61.0,5.8,Admitted
+V0327,P0035,2025-12-05,Pediatrics,Scheduled,53.0,0.7,Discharged
+V0328,P0023,2025-02-21,General Medicine,Emergency,28.0,1.9,Discharged
+V0329,P0258,2025-07-25,Pediatrics,Emergency,51.0,5.9,Discharged
+V0330,P0345,2025-05-29,Cardiology,Walk-in,33.0,0.6,Discharged
+V0331,P0154,2025-06-14,Cardiology,Emergency,68.0,4.8,Discharged
+V0332,P0348,2025-05-21,Emergency,Scheduled,34.0,0.6,Discharged
+V0333,P0269,2025-08-07,General Medicine,Scheduled,63.0,1.2,Admitted
+V0334,P0243,2025-06-13,Neurology,Scheduled,48.0,2.9,Admitted
+V0335,P0288,2025-05-04,Cardiology,Emergency,47.0,0.8,Referred
+V0336,P0332,2025-07-31,Pediatrics,Scheduled,32.0,2.6,Discharged
+V0337,P0138,2025-02-10,Pediatrics,Walk-in,45.0,3.0,Discharged
+V0338,P0301,2025-07-13,Neurology,Scheduled,45.0,1.9,Admitted
+V0339,P0008,2025-12-10,General Medicine,Emergency,56.0,6.2,Discharged
+V0340,P0125,2025-04-19,Cardiology,Walk-in,78.0,5.5,Discharged
+V0341,P0145,2025-12-23,General Medicine,Walk-in,19.0,2.4,Discharged
+V0342,P0255,2025-07-14,Pediatrics,Scheduled,17.0,2.6,Discharged
+V0343,P0105,2025-08-27,Emergency,Walk-in,50.0,0.0,Discharged
+V0344,P0134,2025-07-09,Orthopedics,Scheduled,20.0,1.4,Discharged
+V0345,P0195,2025-10-11,General Medicine,Scheduled,20.0,2.2,Discharged
+V0346,P0251,2025-10-19,Cardiology,Scheduled,22.0,0.0,Discharged
+V0347,P0280,2025-11-25,Neurology,Scheduled,53.0,4.0,Discharged
+V0348,P0018,2025-09-08,Cardiology,Walk-in,14.0,1.3,Discharged
+V0349,P0035,2025-02-08,Neurology,Emergency,68.0,3.2,Discharged
+V0350,P0342,2025-12-29,Cardiology,Emergency,40.0,3.2,Discharged
+V0351,P0009,2025-11-12,Pediatrics,Walk-in,43.0,2.0,Discharged
+V0352,P0346,2025-09-29,Neurology,Emergency,62.0,3.2,Admitted
+V0353,P0270,2025-08-09,Cardiology,Emergency,62.0,3.7,Discharged
+V0354,P0290,2025-05-10,Orthopedics,Emergency,38.0,4.0,Discharged
+V0355,P0333,2025-05-05,Neurology,Emergency,48.0,0.7,Admitted
+V0356,P0088,2025-01-17,Emergency,Scheduled,42.0,2.9,Discharged
+V0357,P0049,2025-02-12,Pediatrics,Walk-in,16.0,0.8,Referred
+V0358,P0139,2025-09-28,Emergency,Emergency,93.0,2.0,Discharged
+V0359,P0092,2025-01-24,Emergency,Walk-in,51.0,3.5,Admitted
+V0360,P0204,2025-06-11,Emergency,Walk-in,33.0,0.6,Admitted
+V0361,P0277,2025-02-09,Orthopedics,Emergency,51.0,5.9,Discharged
+V0362,P0257,2025-06-19,Pediatrics,Walk-in,53.0,5.0,Admitted
+V0363,P0315,2025-06-27,Emergency,Emergency,75.0,3.8,Discharged
+V0364,P0231,2025-11-01,Pediatrics,Walk-in,15.0,3.6,Admitted
+V0365,P0339,2025-09-09,Cardiology,Scheduled,49.0,1.3,Admitted
+V0366,P0138,2025-07-14,Emergency,Walk-in,51.0,2.8,Discharged
+V0367,P0055,2025-03-20,Pediatrics,Walk-in,8.0,0.1,Discharged
+V0368,P0045,2025-02-16,Emergency,Walk-in,31.0,2.6,Discharged
+V0369,P0182,2025-04-06,Pediatrics,Scheduled,10.0,1.3,Discharged
+V0370,P0212,2025-10-11,Emergency,Scheduled,61.0,0.0,Discharged
+V0371,P0267,2025-07-18,Emergency,Walk-in,11.0,0.2,Discharged
+V0372,P0033,2025-03-28,Neurology,Scheduled,48.0,2.7,Discharged
+V0373,P0127,2025-03-27,Pediatrics,Emergency,36.0,5.5,Discharged
+V0374,P0203,2025-11-17,Pediatrics,Scheduled,27.0,2.4,Discharged
+V0375,P0334,2025-06-20,General Medicine,Scheduled,38.0,0.7,Discharged
+V0376,P0091,2025-11-01,Cardiology,Emergency,36.0,1.9,Discharged
+V0377,P0125,2025-07-23,Orthopedics,Emergency,44.0,1.7,Discharged
+V0378,P0103,2025-06-16,Pediatrics,Emergency,48.0,1.9,Referred
+V0379,P0108,2025-10-31,General Medicine,Emergency,48.0,2.9,Admitted
+V0380,P0345,2025-08-13,Orthopedics,Walk-in,56.0,2.9,Admitted
+V0381,P0194,2025-09-13,Cardiology,Scheduled,36.0,3.9,Admitted
+V0382,P0215,2025-02-07,Pediatrics,Walk-in,9.0,2.0,Discharged
+V0383,P0327,2025-10-06,Emergency,Walk-in,34.0,4.1,Discharged
+V0384,P0023,2025-02-13,Emergency,Walk-in,47.0,0.7,Discharged
+V0385,P0221,2025-10-16,Neurology,Walk-in,19.0,3.2,Referred
+V0386,P0295,2025-02-24,Emergency,Emergency,79.0,5.5,Discharged
+V0387,P0078,2025-04-24,Pediatrics,Scheduled,2.0,2.3,Admitted
+V0388,P0073,2025-06-26,Emergency,Scheduled,45.0,4.8,Discharged
+V0389,P0050,2025-06-28,Orthopedics,Emergency,53.0,1.5,Discharged
+V0390,P0059,2025-08-13,Neurology,Walk-in,34.0,2.9,Admitted
+V0391,P0125,2025-01-12,Unknown,Scheduled,26.0,1.0,Referred
+V0392,P0208,2025-09-22,Cardiology,Scheduled,27.0,3.1,Discharged
+V0393,P0102,2025-11-19,Cardiology,Emergency,46.0,2.0,Admitted
+V0394,P0033,2025-08-19,General Medicine,Scheduled,38.0,1.8,Discharged
+V0395,P0059,2025-10-23,Emergency,Walk-in,41.0,1.5,Discharged
+V0396,P0313,2025-05-15,Neurology,Walk-in,18.0,1.5,Discharged
+V0397,P0345,2025-07-20,General Medicine,Emergency,38.0,4.4,Discharged
+V0398,P0123,2025-12-28,Orthopedics,Walk-in,11.0,0.7,Discharged
+V0399,P0071,2025-06-06,Emergency,Emergency,68.0,1.6,Discharged
+V0400,P0089,2025-10-22,Pediatrics,Scheduled,6.0,1.9,Referred
+V0401,P0028,2025-10-12,Cardiology,Scheduled,43.0,2.7,Discharged
+V0402,P0335,2025-07-03,Emergency,Scheduled,60.0,3.1,Discharged
+V0403,P0043,2025-09-11,Pediatrics,Walk-in,0.0,3.2,Discharged
+V0404,P0148,2025-10-17,Emergency,Walk-in,55.0,2.2,Discharged
+V0405,P0294,2025-03-28,Pediatrics,Scheduled,27.0,0.2,Discharged
+V0406,P0022,2025-02-28,Orthopedics,Walk-in,36.0,0.6,Admitted
+V0407,P0127,2025-08-14,General Medicine,Emergency,26.0,4.2,Admitted
+V0408,P0061,2025-06-02,Emergency,Scheduled,38.0,3.9,Discharged
+V0409,P0324,2025-05-02,Cardiology,Walk-in,23.0,1.1,Admitted
+V0410,P0292,2025-08-08,Cardiology,Scheduled,40.0,0.0,Admitted
+V0411,P0149,2025-06-29,General Medicine,Emergency,35.0,2.9,Admitted
+V0412,P0070,2025-10-21,Orthopedics,Walk-in,0.0,1.5,Admitted
+V0413,P0128,2025-07-30,Emergency,Walk-in,60.0,1.3,Admitted
+V0414,P0073,2025-03-16,Neurology,Emergency,60.0,5.9,Discharged
+V0415,P0048,2025-10-23,Neurology,Emergency,45.0,4.0,Discharged
+V0416,P0250,2025-07-26,General Medicine,Walk-in,17.0,0.0,Discharged
+V0417,P0235,2025-06-17,General Medicine,Emergency,51.0,1.0,Admitted
+V0418,P0220,2025-11-22,Neurology,Walk-in,55.0,0.0,Discharged
+V0419,P0290,2025-04-19,Pediatrics,Emergency,51.0,2.1,Discharged
+V0420,P0236,2025-09-06,Orthopedics,Walk-in,30.0,1.4,Discharged
+V0421,P0220,2025-01-09,Emergency,Walk-in,64.0,3.1,Referred
+V0422,P0141,2025-04-14,Neurology,Walk-in,49.0,1.0,Admitted
+V0423,P0027,2025-02-17,Neurology,Scheduled,59.0,2.8,Discharged
+V0424,P0049,2025-07-22,Neurology,Emergency,56.0,2.2,Admitted
+V0425,P0005,2025-01-01,Cardiology,Scheduled,42.0,2.5,Admitted
+V0426,P0245,2025-01-05,Neurology,Emergency,81.0,5.1,Admitted
+V0427,P0154,2025-02-06,Cardiology,Scheduled,34.0,1.2,Discharged
+V0428,P0074,2025-03-12,Pediatrics,Walk-in,25.0,1.1,Referred
+V0429,P0110,2025-02-05,General Medicine,Scheduled,21.0,1.3,Discharged
+V0430,P0045,2025-11-18,Neurology,Emergency,40.0,4.3,Admitted
+V0431,P0162,2025-02-21,Cardiology,Walk-in,22.0,1.1,Referred
+V0432,P0312,2025-03-13,Cardiology,Emergency,71.0,4.1,Discharged
+V0433,P0311,2025-05-26,Neurology,Emergency,77.0,0.9,Discharged
+V0434,P0123,2025-09-18,Cardiology,Walk-in,33.0,2.2,Admitted
+V0435,P0007,2025-09-11,Pediatrics,Emergency,24.0,3.2,Discharged
+V0436,P0350,2025-07-04,Orthopedics,Emergency,62.0,1.8,Discharged
+V0437,P0135,2025-03-30,Pediatrics,Walk-in,25.0,1.5,Discharged
+V0438,P0257,2025-04-21,Emergency,Walk-in,69.0,1.4,Discharged
+V0439,P0143,2025-08-01,Pediatrics,Walk-in,41.0,2.7,Discharged
+V0440,P0168,2025-02-12,Orthopedics,Emergency,85.0,1.4,Discharged
+V0441,P0224,2025-07-20,General Medicine,Scheduled,39.0,0.0,Discharged
+V0442,P0029,2025-05-03,Emergency,Emergency,81.0,2.9,Discharged
+V0443,P0006,2025-06-08,Neurology,Walk-in,39.0,1.1,Admitted
+V0444,P0086,2025-03-25,Pediatrics,Walk-in,0.0,1.4,Admitted
+V0445,P0016,2025-07-10,Cardiology,Walk-in,52.0,0.2,Discharged
+V0446,P0040,2025-06-21,Pediatrics,Emergency,66.0,4.1,Discharged
+V0447,P0081,2025-09-12,Pediatrics,Scheduled,52.0,2.7,Discharged
+V0448,P0002,2025-05-11,Emergency,Walk-in,51.0,1.2,Admitted
+V0449,P0019,2025-01-23,Emergency,Emergency,60.0,3.4,Discharged
+V0450,P0164,2025-10-11,Neurology,Walk-in,28.0,2.4,Discharged
+V0451,P0115,2025-05-19,Emergency,Scheduled,71.0,3.2,Discharged
+V0452,P0160,2025-09-22,Emergency,Walk-in,70.0,2.5,Discharged
+V0453,P0156,2025-06-17,Emergency,Scheduled,65.0,1.8,Discharged
+V0454,P0101,2025-11-15,Cardiology,Scheduled,20.0,0.9,Admitted
+V0455,P0326,2025-10-07,Cardiology,Emergency,58.0,3.1,Discharged
+V0456,P0158,2025-12-22,Emergency,Walk-in,76.0,1.8,Admitted
+V0457,P0073,2025-02-23,Cardiology,Scheduled,36.0,3.4,Discharged
+V0458,P0191,2025-12-31,Orthopedics,Emergency,78.0,1.8,Discharged
+V0459,P0039,2025-08-23,Neurology,Emergency,66.0,3.6,Admitted
+V0460,P0162,2025-10-31,General Medicine,Emergency,43.0,2.6,Discharged
+V0461,P0104,2025-07-21,Neurology,Walk-in,32.0,3.2,Discharged
+V0462,P0062,2025-03-11,General Medicine,Emergency,60.0,4.1,Discharged
+V0463,P0062,2025-10-02,Orthopedics,Walk-in,33.0,3.0,Discharged
+V0464,P0111,2025-02-16,Cardiology,Walk-in,27.0,3.9,Discharged
+V0465,P0347,2025-06-17,Cardiology,Emergency,55.0,4.5,Discharged
+V0466,P0285,2025-06-03,Orthopedics,Walk-in,47.0,4.9,Admitted
+V0467,P0032,2025-10-09,Cardiology,Emergency,76.0,4.7,Discharged
+V0468,P0044,2025-04-24,Cardiology,Emergency,36.0,4.4,Referred
+V0469,P0331,2025-10-26,General Medicine,Emergency,49.0,2.9,Discharged
+V0470,P0237,2025-08-16,Cardiology,Emergency,70.0,1.1,Discharged
+V0471,P0196,2025-01-26,Cardiology,Walk-in,13.0,2.7,Discharged
+V0472,P0077,2025-12-16,Pediatrics,Emergency,47.0,4.1,Discharged
+V0473,P0282,2025-01-18,General Medicine,Scheduled,28.0,3.0,Discharged
+V0474,P0270,2025-09-03,Emergency,Emergency,63.0,4.2,Discharged
+V0475,P0184,2025-05-08,Neurology,Walk-in,37.0,1.7,Discharged
+V0476,P0139,2025-09-03,General Medicine,Walk-in,17.0,3.3,Discharged
+V0477,P0030,2025-04-03,Emergency,Emergency,81.0,6.1,Admitted
+V0478,P0127,2025-08-30,General Medicine,Scheduled,18.0,1.3,Discharged
+V0479,P0113,2025-12-03,Cardiology,Emergency,68.0,0.3,Discharged
+V0480,P0304,2025-10-22,Pediatrics,Scheduled,40.0,0.0,Discharged
+V0481,P0291,2025-06-12,Neurology,Walk-in,43.0,1.6,Admitted
+V0482,P0253,2025-10-16,Cardiology,Scheduled,51.0,5.7,Admitted
+V0483,P0011,2025-10-05,Orthopedics,Emergency,54.0,3.3,Discharged
+V0484,P0091,2025-09-27,Pediatrics,Emergency,53.0,2.7,Discharged
+V0485,P0270,2025-06-15,Emergency,Emergency,46.0,1.6,Admitted
+V0486,P0155,2025-07-06,Emergency,Scheduled,69.0,1.3,Discharged
+V0487,P0250,2025-06-15,Cardiology,Walk-in,33.0,0.3,Discharged
+V0488,P0183,2025-11-29,Orthopedics,Emergency,72.0,2.8,Referred
+V0489,P0066,2025-04-25,Neurology,Scheduled,45.0,2.9,Admitted
+V0490,P0291,2025-04-01,Neurology,Emergency,54.0,1.5,Admitted
+V0491,P0290,2025-01-17,Cardiology,Scheduled,69.0,0.1,Discharged
+V0492,P0086,2025-02-23,Pediatrics,Emergency,44.0,2.2,Referred
+V0493,P0006,2025-11-22,Emergency,Walk-in,43.0,0.0,Discharged
+V0494,P0001,2025-05-16,Cardiology,Emergency,65.0,3.6,Discharged
+V0495,P0194,2025-01-25,Pediatrics,Scheduled,17.0,2.2,Discharged
+V0496,P0116,2025-06-29,General Medicine,Scheduled,40.0,0.0,Discharged
+V0497,P0054,2025-03-25,Pediatrics,Emergency,52.0,2.2,Discharged
+V0498,P0048,2025-02-07,Orthopedics,Emergency,32.0,4.8,Discharged
+V0499,P0335,2025-06-23,General Medicine,Walk-in,46.0,0.4,Discharged
+V0500,P0098,2025-03-26,General Medicine,Walk-in,31.0,2.3,Discharged
